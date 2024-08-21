@@ -1,21 +1,55 @@
+# This CITATION.cff file was generated with cffinit.
+# https://citation-file-format.github.io/cff-initializer-javascript/
+
 cff-version: 1.2.0
+title: CSDMS Ivy
 message: >-
-  If you use this software, please cite it as below.
+  If you use this software, please cite it using the
+  metadata from this file.
 type: software
-title: "CSDMS GeoTIFF data component"
 authors:
   - family-names: Piper
     given-names: Mark
-    orcid: https://orcid.org/0000-0001-6418-277X
-url: 'https://github.com/csdms/bmi-geotiff'
+    orcid: 'https://orcid.org/0000-0001-6418-277X'
+  - family-names: Campforts
+    given-names: Benjamin
+    orcid: 'https://orcid.org/0000-0001-5699-6714'
+  - family-names: Hutton
+    given-names: Eric
+    orcid: 'https://orcid.org/0000-0002-5864-6459'
+  - family-names: Gan
+    given-names: Tian
+    orcid: 'https://orcid.org/0000-0003-3624-6910'
+  - family-names: Overeem
+    given-names: Irina
+    orcid: 'https://orcid.org/0000-0002-8422-580X'
+  - family-names: Gasparini
+    given-names: Nicole
+    orcid: 'https://orcid.org/0000-0002-0803-3697'
+  - family-names: Arthurs
+    given-names: Leilani
+    orcid: 'https://orcid.org/0000-0002-6559-3412'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.4000978
+    description: >-
+      CSDMS Ivy
+repository-code: 'https://github.com/csdms/ivy'
+url: 'https://github.com/csdms/ivy'
 abstract: >-
-  Access data and metadata from a GeoTIFF file through a BMI.
+  Course material on scientific software development for
+  researchers in earth and planetary surface processes.
 keywords:
-  - python
-  - geotiff
-  - bmi
   - csdms
-license: MIT
-version: 0.3.3
-doi: 10.5281/zenodo.4721474
-date-released: 2024-08-17
+  - geosciences
+  - landlab
+  - bmi
+  - pymt
+  - python
+  - git
+  - shell
+  - jupyter
+license: CC-BY-4.0
+commit: be832698a2fe3811cf27707e8314c2109d982942
+version: '2024.0'
+date-released: '2024-07-26'
