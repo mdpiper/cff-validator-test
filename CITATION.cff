@@ -1,55 +1,41 @@
 # This CITATION.cff file was generated with cffinit.
-# https://citation-file-format.github.io/cff-initializer-javascript/
+# https://citation-file-format.github.io/cff-initializer-javascript
 
 cff-version: 1.2.0
-title: CSDMS Ivy
+title: Terrainbento
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
 type: software
 authors:
-  - family-names: Piper
-    given-names: Mark
-    orcid: 'https://orcid.org/0000-0001-6418-277X'
-  - family-names: Campforts
-    given-names: Benjamin
-    orcid: 'https://orcid.org/0000-0001-5699-6714'
-  - family-names: Hutton
-    given-names: Eric
-    orcid: 'https://orcid.org/0000-0002-5864-6459'
-  - family-names: Gan
-    given-names: Tian
-    orcid: 'https://orcid.org/0000-0003-3624-6910'
-  - family-names: Overeem
-    given-names: Irina
-    orcid: 'https://orcid.org/0000-0002-8422-580X'
-  - family-names: Gasparini
-    given-names: Nicole
-    orcid: 'https://orcid.org/0000-0002-0803-3697'
-  - family-names: Arthurs
-    given-names: Leilani
-    orcid: 'https://orcid.org/0000-0002-6559-3412'
+  - given-names: Katherine R.
+    family-names: Barnhart
+    orcid: 'https://orcid.org/0000-0001-5682-455X'
+  - given-names: Rachel C.
+    family-names: Glade
+    orcid: 'https://orcid.org/0000-0002-0345-1953'
+  - given-names: Charles M.
+    family-names: Shobe
+    orcid: 'https://orcid.org/0000-0003-3015-1283'
+  - given-names: Gregory E.
+    family-names: Tucker
+    orcid: 'https://orcid.org/0000-0003-0364-5800'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.4000978
-    description: >-
-      CSDMS Ivy
-repository-code: 'https://github.com/csdms/ivy'
-url: 'https://github.com/csdms/ivy'
+    value: 10.5194/gmd-12-1267-2019
+  - type: url
+    value: 'https://doi.org/10.5194/gmd-12-1267-2019'
+repository-code: 'https://github.com/TerrainBento/terrainbento'
+url: 'https://terrainbento.readthedocs.io'
 abstract: >-
-  Course material on scientific software development for
-  researchers in earth and planetary surface processes.
+  A modular landscape evolution modeling package built on
+  top of the Landlab Toolkit.
 keywords:
-  - csdms
-  - geosciences
+  - earth science
   - landlab
-  - bmi
-  - pymt
-  - python
-  - git
-  - shell
-  - jupyter
-license: CC-BY-4.0
-commit: be832698a2fe3811cf27707e8314c2109d982942
-version: '2024.0'
-date-released: '2024-07-26'
+  - landscape evolution modeling
+  - numerical modeling
+license: MIT
+commit: cbf9d93
+version: v2.0.1
+date-released: '2024-09-11'
